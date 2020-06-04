@@ -9,9 +9,12 @@
       integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="style.css" />
     <title>Chats Kakao clone</title>
   </head>
+
   <body>
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">10:23</span>
@@ -20,26 +23,33 @@
         <i class="far fa-clock"></i>
         <i class="fas fa-volume-up"></i>
         <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
         <span class="status-bar__battery-level">100%</span>
+        <i class="fas fa-battery-full"></i>
+        
+      </div>
+    </div>
 
-        <header calss="header">
+
+        <header class="header">
           <div class="header__header-column">
-            <h1 class="header title">chart</h1>
+            <h1 class="header__title">Chat</h1>
           </div>
           <div class="header__header-column">
-            <span class="hreader__icon">
+            <span class="header__icon">
               <i class="fas fa-search"></i>
             </span>
-            <span class="hreader__icon">
+            <span class="header__icon">
               <i class="far fa-comment"></i>
             </span>
-            <span class="hreader__icon">
+            <span class="header__icon">
               <i class="fas fa-cog"></i>
             </span>
           </div>
+        </header>
+
+
           <nav class="nav">
-            <ui class="nav__list">
+            <ul class="nav__list">
               <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link"
                   ><i class="far fa-user"></i
@@ -62,24 +72,26 @@
               </li>
             </ui>
           </nav>
-        </header>
+        
         <main class="Chats">
           <ul class="Chsts__list">
             <li class="Chats__chart">
-              <div class="chat__column">
-                <img class="chat__avatar g-avatar" src="image/rain.jpg" />
-                <div class="chat__content">
-                  <span class="chat__username">Lynn</span>
-                  <span class="chat__preview">Going home</span>
+              <a href="chat.html">
+                <div class="chat__column">
+                  <img class="chat__avatar g-avatar" src="image/rain.jpg" />
+                  <div class="chat__content">
+                    <span class="chat__username">Lynn</span>
+                    <span class="chat__preview">Going home</span>
+                  </div>
                 </div>
-              </div>
-              <div class="chat__column">
-                <span class="chat__timestemp">Yesterday</span>
-              </div>
+                <div class="chat__column">
+                  <span class="chat__timestemp">Yesterday</span>
+                </div>
+              </a>
             </li>
           </ul>
         </main>
       </div>
-    </div>
+   
   </body>
 </html>

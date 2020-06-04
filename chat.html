@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
     <title>Chat Kakao clone</title>
     <link
       rel="stylesheet"
@@ -14,29 +15,31 @@
 
   <body>
     <div class="status-bar">
-      <div class="status-bar__column">
-        <span class="status-bar__clock">10:23</span>
+        <div class="status-bar__column">
+          <span class="status-bar__clock">10:23</span>
+        </div>
+        <div class="status-bar__column">
+          <i class="far fa-clock"></i>
+          <i class="fas fa-volume-up"></i>
+          <i class="fas fa-wifi"></i>
+          <i class="fas fa-battery-full"></i>
+          <span class="status-bar__battery-level">100%</span>
+        </div>
       </div>
-      <div class="status-bar__column">
-        <i class="far fa-clock"></i>
-        <i class="fas fa-volume-up"></i>
-        <i class="fas fa-wifi"></i>
-        <i class="fas fa-battery-full"></i>
-        <span class="status-bar__battery-level">100%</span>
 
         <header calss="header">
+
           <div class="header__header-column">
-                  <a href="more.html">
-                <i class="fas fa-arrow-left fa-2x"></i>
+                  <a href="index.html" class="header__back-btn">
+                <i class="fas fa-arrow-left"></i>
                 </a>
-              </div>
             <h1 class="header title">Best Friend</h1>
           </div>
+
           <div class="header__header-column">
             <span class="hreader__icon">
               <i class="fas fa-search"></i>
             </span>
-
             <div class="header__icon">
                 <i class="fas fa-bars"></i>
             </div>
@@ -49,7 +52,7 @@
                     Friday,January 11, 2020
                 </span>
                 <li class="incoming-message message">
-                    <img src="image.rain.jpg" classg="g-avarta">
+                    <img src="image/rain.jpg" classg="g-avarta">
                     <div class="message__content">
                         <span class="message__author">
                             Best Friend
