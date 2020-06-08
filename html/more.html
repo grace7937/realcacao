@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../css/style.css">
     <title>More Kakao clone</title>
     <link
       rel="stylesheet"
@@ -26,64 +26,31 @@
         <span class="status-bar__battery-level">100%</span>
       </div>
     </div>
-    
-        <header calss="header">
-          <div class="header__header-column">
-            <h1 class="header title">More</h1>
-          </div>
-          <div class="header__header-column">
-            <span class="hreader__icon">
-              <i class="fas fa-search"></i>
-            </span>
-            <span class="hreader__icon">
-              <i class="fas fa-qrcode"></i>
-            </span>
-            <span class="hreader__icon">
-              <i class="fas fa-cog"></i>
-              <a href="setting.html">
 
-            </span>
-          </div>
-        </header>
+    <header class="header">
+      <div class="header__header-column">
+        <h1 class="header__title">More</h1>
+      </div>
+      <div class="header__header-column">
+        <span class="header__icon">
+          <i class="fas fa-search"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-qrcode"></i>
+        </span>
+        <span class="header__icon">
+          <i class="fas fa-cog"></i>
+        </span>
+      </div>
+    </header>
+       
 
-
-
-
-          <nav class="nav">
-            <ui class="nav__list">
-              <li class="nav__list-item">
-                <a href="friends.html" class="nav__list-link"
-                  ><i class="far fa-user"></i
-                ></a>
-              </li>
-              <li class="nav__list-item">
-                <a href="index.html" class="nav__list-link">
-                  <i class="far fa-comment"></i>
-                </a>
-              </li>
-              <li class="nav__list-item">
-                <a href="find.html" class="nav__list-link">
-                  <i class="fas fa-search"></i>
-                </a>
-              </li>
-              <li class="nav__list-item">
-                <a href="more.html" class="nav__list-link">
-                  <i class="fas fa-ellipsis-h"></i>
-                </a>
-              </li>
-            </ui>
-          </nav>
-        
 
         <main class="more">
           <header class="more__header">
-            <div class="friends__friend friend--lg">
+            <div class="friends__friend friend friend--lg">
               <div class="friend__column">
-                <img
-                  src="image/rain.jpg"
-                  alt=""
-                  class="g-avarta friend__avarta"
-                />
+                <img src="../image/rain.jpg" class="g-avarta friend__avarta"/>
                 <div class="friend__content">
                   <span class="friend__name">
                     Minsu
@@ -99,26 +66,26 @@
             </div>
           </main>
 
-            <ul class="more__botton-list">
-              <li class="more__botton">
-                <span class="more__botton-icon">
+            <ul class="more__bottom-list">
+              <li class="more__bottom">
+                <span class="more__bottom-icon">
                   <i class="far fa-grin"></i>
                 </span>
-                <span class="more__botton-tile">Emoticons</span>
+                <span class="more__bottom-tile">Emoticons</span>
               </li>
 
-              <li class="more__botton">
-                <span class="more__botton-icon"
+              <li class="more__bottom">
+                <span class="more__bottom-icon"
                   ><i class="fas fa-brush"></i
                 ></span>
-                <span class="more__botton-tile">Themes</span>
+                <span class="more__bottom-tile">Themes</span>
               </li>
 
-              <li class="more__botton">
-                <span class="more__botton-icon"
+              <li class="more__bottom">
+                <span class="more__bottom-icon"
                   ><i class="far fa-user-circle"></i
                 ></span>
-                <span class="more__botton-tile">Account</span>
+                <span class="more__bottom-tile">Account</span>
               </li>
             </ul>
           </header>
@@ -149,5 +116,33 @@
         </main>
       </div>
     </div>
+    <nav class="nav">
+      <ul class="nav__list">
+        <li class="nav__list-item">
+          <a href="friends.html" class="nav__list-link"
+            ><i class="far fa-user"></i
+          ></a>
+        </li>
+        <li class="nav__list-item">
+          <a href="index.html" class="nav__list-link">
+            <div class="nav__badge">8
+
+            </div>
+            <i class="fas fa-comment"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="find.html" class="nav__list-link">
+            <i class="fas fa-search"></i>
+          </a>
+        </li>
+        <li class="nav__list-item">
+          <a href="more.html" class="nav__list-link">
+            <i class="fas fa-ellipsis-h"></i>
+          </a>
+        </li>
+      </ui>
+    </nav>
+
   </body>
 </html>

@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
-    <title>Find Kakao clone</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <title>Friends Kakao clone</title>
     <link
       rel="stylesheet"
       href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
@@ -13,6 +13,7 @@
     />
   </head>
   <body>
+
     <div class="status-bar">
       <div class="status-bar__column">
         <span class="status-bar__clock">10:23</span>
@@ -25,92 +26,103 @@
         <span class="status-bar__battery-level">100%</span>
       </div>
     </div>
+      
 
-        <header calss="header">
+        <header class="header">
+
           <div class="header__header-column">
-            <h1 class="header title">Find</h1>
+
+            <h1 class="header__title">Friends</h1>
           </div>
           <div class="header__header-column">
-            <span class="hreader__icon">
+
+            <span class="header__icon">
               <i class="fas fa-search"></i>
-           
-            
-            <span class="hreader__icon">
+            </span>
+
+           <span class="header__icon">
               <i class="fas fa-cog"></i>
             </span>
           </div>
+
         </header>
 
+        <mian class="friends">
+        
 
-        <main class="find">
-          <header class="find__header">
-            <ul class="find__header-list">
-
-              <li class="find__header-botton header-botton"></li>
-              <span class="haeader-botton__icon">
-                <i class="fas fa-qrcode fa-2x"></i>
-              </span>
-                <span class="header-botton__title">
-                  QR code
-                </span>
-                
-                <li class="find__header-botton header-botton"></li>
-              <span class="haeader-botton__icon">
-                <i class="fas fa-user-plus fa-2x"></i>
-              </span>
-                <span class="header-botton__title">
-                  Add by contacts
-                </span>
-
-                <li class="find__header-botton header-botton"></li>
-              <span class="haeader-botton__icon">
-                <i class="far fa-address-card fa-2x"></i>
-              </span>
-                <span class="header-botton__title">
-                  Add by ID
-                </span>
-
-                <li class="find__header-botton header-botton"></li>
-                <span class="haeader-botton__icon">
-                  <i class="far fa-envelope fa-2x"></i>
-                </span>
-                  <span class="header-botton__title">
-                    Invite
-                  </span>
-
-            </ul>
-          </header>
-
-          <ul class="find__recomended">
-            <h5>Recomended Friends</h5>
-            <li class="find__friend friend--lg">
-              <div class="find__column">
-                <img src="image/rain.jpg" alt="" class="friend__avarta">
-              <div class="find__content">
-                <span class="find__name">
+          <header class="friends__header">
+            <div class="friends__friend friend friend--lg">
+              <div class="friend__column">
+                <img src="../image/rain.jpg" class="g-avarta friend__avarta">
+              <div class="friend__content">
+                <span class="friend__name">
                   Minsu
                 </span>
+                <span class="friend__status">
+                  Be happy
+                </span>
               </div>
+              </div>
+              </div>
+           </header>
+
+          <div class="friends__plus">
+            <h5 class="friends__plus-title">
+              Plus Friend</h5>
+            <div class="friends__friend friend">
               <div class="friend__column">
-                <div class="friend__add-botton">
-                  <i class="fas fa-user-plus"></i>
+                <img src="../image/rain.jpg"  class="friend__avarta">
+             
+
+              <div class="friend__content">
+                <span class="friend__name">
+            Plus Friend
+          </span>
 
               </div>
-              
-
             </div>
+              
               </div>
+          </div>
+        
+
+          <ul class="friends__list">
+            <h5 class="friends title">
+              Friends 541
+            </h5>
+           
+            <li class="friends__friend friend friend--lg">
+              <div class="friend__column">
+                <img src="../image/rain.jpg" class="friend__avarta">
+              <div class="friend__content">
+                <span class="friend__name">
+                  Minsu
+                </span>
+                <span class="friend__status">
+                  Be happy
+                </span>
+            
+              </div>
+            </div>
+
+              <div class="friend__column">
+                <div class="friend__now-listenig">
+                 <span id='haha'>frome-oneday</span>
+                 <i class="fas fa-play"></i>
+
+              </div>
+              </div>
+
+              
             </li>
           </ul>
+        </mian>
 
-
-
-        </main>
           <nav class="nav">
             <ul class="nav__list">
               <li class="nav__list-item">
                 <a href="friends.html" class="nav__list-link"
-                  ><i class="far fa-user"></i
+                  ><i class="fas fa-user"></i
                 ></a>
               </li>
               <li class="nav__list-item">
@@ -132,6 +144,6 @@
           </nav>
         
       </div>
-    </div>
+    
   </body>
 </html>
