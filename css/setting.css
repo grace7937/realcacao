@@ -1,0 +1,23 @@
+.settings {
+  border-top: 2px solid rgb(245, 203, 203);
+  padding: 20px 0px;
+}
+
+.settings .settings__setting {
+  margin-bottom: 20px;
+}
+
+.settings .settings__icon {
+  font-size: 20px;
+  margin-right: 20px;
+}
+
+.settings .settings__title {
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.settings .settings__setting:last-child {
+    margin-bottom: 0;
+}
+}

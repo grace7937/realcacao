@@ -12,8 +12,8 @@
 }
 
 .friend__avarta.g-avarta {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 55px;
 }
 .friend__avarta.m-avarta {
   width: 50px;
@@ -35,7 +35,8 @@
 }
 
 .friend__content .friend__status,
-.friend__content .friend__bottom_text {
+.friend__content .friend__bottom_text,
+.friend .friend__email {
   opacity: 0.6;
 }
 
@@ -44,23 +45,22 @@
 }
 
 .friend__content .friend__stasus,
-.friend .chat__timestap {
+.friend .chat__timestap,
+.friend .firend__email {
   font-size: 12px;
-}
-
-.friend .friend__now-listening {
-  border: 1px solid #acf5c1;
-  padding: 5px 10px;
-  border-radius: 15px;
-  font-size: 14px;
 }
 
 /* .friend .friend__column .friend__now-listening {
   opacity: 0.7;
 } */
-
 #haha {
   opacity: 0.7;
+  border: 1px solid #acf5c1;
+  padding: 3px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  padding-bottom: 7px;
+}
 }
 
 .friend__now-listening i {

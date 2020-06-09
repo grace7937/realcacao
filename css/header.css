@@ -10,7 +10,7 @@
 }
 .header .header__icon {
   font-size: 20px;
-  margin-left: 20px;
+  margin-left: 10px;
   cursor: pointer;
 }
 
@@ -22,4 +22,8 @@
 .header .header__back-btn {
   font-size: 22px;
   margin-right: 20px;
+}
+
+.header .fa-arrow-left {
+  padding-right: 10px;
 }
